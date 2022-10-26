@@ -26,21 +26,21 @@ main{
     max-width: 425px;
 }
 
-.pokemon_image{
+.pokemon_imagem{
     position: absolute;
-    /*bottom: 54.5%;*/
-    left: 0%;
+    bottom: 53.5%;
+    left: 52%;
     transform: translate(-63%, 20%);
     height: 20%;
 
 }
 
-.pokemon_dados {
+.pokemon_dados{
     position: absolute;
     font-weight: 600;
     color: #aaa;
-    top: 30.5%;
-    right: 27%;
+    top: 56.5%;
+    right: 31%;
     font-size: clamp(10px, 5vw, 25px);
 }
 
