@@ -18,20 +18,21 @@ main{
     display: inline-block;
     margin-top: 2%;
     padding: 10px;
+    position: relative
 
 }
 
 .pokedex {
     width: 100%;
-    max-width: 425px;
+    max-width: 450px;
 }
 
 .pokemon_imagem{
     position: absolute;
-    bottom: 53.5%;
+    bottom: 56%;
     left: 52%;
-    transform: translate(-63%, 20%);
-    height: 20%;
+    transform: translate(-63%, 15%);
+    height: 17%;
 
 }
 
@@ -39,9 +40,9 @@ main{
     position: absolute;
     font-weight: 600;
     color: #aaa;
-    top: 56.5%;
-    right: 31%;
-    font-size: clamp(10px, 5vw, 25px);
+    top: 55%;
+    right: 26%;
+    font-size: clamp(8px, 5vw, 25px);
 }
 
 .pokemon_nome {
@@ -49,3 +50,46 @@ main{
     text-transform: capitalize;
 
 }
+
+.form {
+    position: absolute;
+
+    width: 63%;
+    left: 16%;
+    top: 68%;
+}
+
+.input_pesquisa{
+    width: 90%;
+    padding: 4%;
+    outline: none;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #3a444d;
+    font-size: clamp(8px, 5vw, 1rem);
+    box-shadow: -3px 4px 0 #888, -5px 7px #333
+}
+
+.botoes{
+    position: absolute;
+    bottom: 12%;
+    left: 25%;
+    width: 48%;
+    transform: translate(-3%, 0);
+    display: flex;
+    gap: 30px;
+}
+
+.botao{
+    width: 50%;
+    padding: 2%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: clamp(5px, 5vw, 1rem);
+    font-weight: 600;
+    color:white;
+    background-color: #444;
+
+}
+
