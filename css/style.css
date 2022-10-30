@@ -90,6 +90,11 @@ main{
     font-weight: 600;
     color:white;
     background-color: #444;
-
+    box-shadow: -3px 3px 0 #222, -3px 5px 0 #000;
 }
 
+.botao:active{
+    box-shadow: inset -4px 4px 0 #222;
+    font-size: 0.9rem;
+
+}
