@@ -1,10 +1,9 @@
 const pokemonnumero = document.querySelector('.pokemon_numero');
 const pokemonnome = document.querySelector('.pokemon_nome');
 const pokemonimagem = document.querySelector('.pokemon_imagem');
+
 const botaoantes = document.querySelector('.btn-ante');
 const botaoprox = document.querySelector('.btn-prox');
-
-
 const form = document.querySelector('.form');
 const input = document.querySelector('.input_pesquisa');
 
@@ -27,6 +26,7 @@ const renderpokemon = async (pokemon) => {
     const dados = await buscapokemon(pokemon);
 
     if(dados){
+    pokemonimagem.style.display = 'block';
     pokemonnome.innerHTML = dados.name;
     pokemonnumero.innerHTML = dados.id;
     pokemonimagem.src = dados['sprites']['versions']
