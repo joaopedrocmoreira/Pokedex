@@ -29,8 +29,8 @@ main{
 
 .pokemon_imagem{
     position: absolute;
-    bottom: 56%;
-    left: 52%;
+    bottom: 55%;
+    left: 50%;
     transform: translate(-63%, 15%);
     height: 17%;
 
